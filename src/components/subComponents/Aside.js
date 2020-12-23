@@ -92,7 +92,7 @@ const Aside = () => {
         <div className="line-aside"></div>
         <img src={SettingIcon} className="settingIcon" alt="setting" />
         <a href="./">
-          <span className="settingText">Setting</span>
+          <span className="settingText">Settings</span>
         </a>
       </div>
     </div>

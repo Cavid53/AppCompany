@@ -6,7 +6,9 @@ $base-font: "Roboto", sans-serif;
 
 .aside {
     position: absolute;
+    z-index: 1;
     width: 256px;
+    height: 1111px;
     left: 0px;
     top: 0px;
     bottom: 0px;
