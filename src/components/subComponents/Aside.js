@@ -1,13 +1,18 @@
 import React, { useState } from "react";
-import "../../assets/main.scss";
+import "../../assets/styles/aside.scss";
 import DashboardIcon from "../../assets/icons/dashboard.svg";
 import ChatIcon from "../../assets/icons/chat.svg";
 import ContactIcon from "../../assets/icons/contact.svg";
 import DealIcon from "../../assets/icons/deal.svg";
 import TaskdIcon from "../../assets/icons/task.svg";
 import EmailIcon from "../../assets/icons/email.svg";
+import SettingIcon from "../../assets/icons/setting.svg";
 
 const Aside = () => {
+  const [person, setPerson] = useState({
+    fullName: "Pasha Life",
+    email: "pashalife@gmail.com",
+  });
   const [menues, setMenues] = useState([
     {
       id: 1,
@@ -63,8 +68,8 @@ const Aside = () => {
       <div className="profile-info">
         <div className="img-profile"></div>
         <div className="profile-text">
-          <p>Pasha Life</p>
-          <span>pashalife@gmail.com</span>
+          <p>{person.fullName}</p>
+          <span>{person.email}</span>
         </div>
       </div>
       <div className="aside-menu">
@@ -72,7 +77,11 @@ const Aside = () => {
           {menues.map((menu) => (
             <li key={menu.id}>
               <div className="icon-text">
-                <img src={menu.icon} className={menu.classIcon} alt="vector" />
+                <img
+                  src={menu.icon}
+                  className={menu.classIcon}
+                  alt={menu.alt}
+                />
                 <a href="./">
                   <span className={menu.classText}>{menu.text}</span>
                 </a>
@@ -80,6 +89,11 @@ const Aside = () => {
             </li>
           ))}
         </ul>
+        <div className="line-aside"></div>
+        <img src={SettingIcon} className="settingIcon" alt="setting" />
+        <a href="./">
+          <span className="settingText">Setting</span>
+        </a>
       </div>
     </div>
   );

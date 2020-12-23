@@ -2,6 +2,7 @@ $base-color: #192a3e;
 $active-color: #4f9bff;
 $menu-color: #334d6e;
 $aside-background: #ffffff;
+$base-font: "Roboto", sans-serif;
 
 .aside {
     position: absolute;
@@ -22,12 +23,13 @@ $aside-background: #ffffff;
             right: -15.22%;
             top: 85px;
             bottom: -2.17%;
-            background-image: url("../assets/images/profile/avatar1.png");
+            background-image: url("../images/profile/avatar1.png");
             background-repeat: no-repeat;
             background-size: 62px 47px;
         }
         .profile-text {
             p {
+                font-family: $base-font;
                 position: absolute;
                 left: 86px;
                 top: 91px;
@@ -38,6 +40,7 @@ $aside-background: #ffffff;
                 color: $base-color;
             }
             span {
+                font-family: $base-font;
                 position: absolute;
                 top: 113px;
                 left: 86px;
@@ -63,6 +66,9 @@ $aside-background: #ffffff;
                 top: 173.5px;
                 box-sizing: border-box;
                 border-radius: 1px;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
             }
 
             a {
@@ -76,6 +82,7 @@ $aside-background: #ffffff;
                     line-height: 15px;
                     letter-spacing: 0.01em;
                     color: $active-color;
+                    font-family: $base-font;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
@@ -89,6 +96,9 @@ $aside-background: #ffffff;
                 left: 25.67px;
                 top: 213.5px;
                 box-sizing: border-box;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
             }
 
             a {
@@ -103,6 +113,7 @@ $aside-background: #ffffff;
                     line-height: 15px;
                     letter-spacing: 0.01em;
                     color: $base-color;
+                    font-family: $base-font;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
@@ -118,6 +129,9 @@ $aside-background: #ffffff;
                 top: 256px;
                 box-sizing: border-box;
                 border: 1.4px solid #c2cfe0;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
             }
 
             a {
@@ -132,6 +146,7 @@ $aside-background: #ffffff;
                     line-height: 15px;
                     letter-spacing: 0.01em;
                     color: $base-color;
+                    font-family: $base-font;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
@@ -146,6 +161,9 @@ $aside-background: #ffffff;
                 left: 25.67px;
                 top: 293.22px;
                 box-sizing: border-box;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
             }
 
             a {
@@ -160,6 +178,7 @@ $aside-background: #ffffff;
                     line-height: 15px;
                     letter-spacing: 0.01em;
                     color: $base-color;
+                    font-family: $base-font;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
@@ -174,6 +193,9 @@ $aside-background: #ffffff;
                 left: 25.67px;
                 top: 332.67px;
                 box-sizing: border-box;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
             }
 
             a {
@@ -188,6 +210,7 @@ $aside-background: #ffffff;
                     line-height: 15px;
                     letter-spacing: 0.01em;
                     color: $base-color;
+                    font-family: $base-font;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
@@ -203,6 +226,9 @@ $aside-background: #ffffff;
                 top: 374.33px;
                 box-sizing: border-box;
                 background: #c2cfe0;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
             }
 
             a {
@@ -217,11 +243,52 @@ $aside-background: #ffffff;
                     line-height: 15px;
                     letter-spacing: 0.01em;
                     color: $base-color;
+                    font-family: $base-font;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
                     }
                 }
+            }
+        }
+    }
+    .line-aside {
+        position: absolute;
+        width: 256px;
+        height: 1px;
+        left: 0px;
+        top: 415px;
+        background-color: #ebeff2;
+    }
+
+    .settingIcon {
+        width: 13.33px;
+        height: 3.33px;
+        position: absolute;
+        left: 25.67px;
+        top: 448.33px;
+        box-sizing: border-box;
+        &:hover {
+            border: 1.4px solid $active-color;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        .settingText {
+            position: absolute;
+            top: 442px;
+            left: 58px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 0.01em;
+            color: $base-color;
+            font-family: $base-font;
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: $active-color;
             }
         }
     }

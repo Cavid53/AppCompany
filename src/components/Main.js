@@ -1,13 +1,12 @@
-import React from 'react'
-import Aside from './subComponents/Aside'
+import React from "react";
+import Aside from "./subComponents/Aside";
 
 const Main = () => {
-    return (
-        <div>
-            <p>test</p>
-            <Aside/>
-        </div>
-    )
-}
+  return (
+    <div className="main">
+      <Aside />
+    </div>
+  );
+};
 
-export default Main
+export default Main;
