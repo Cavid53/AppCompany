@@ -7,6 +7,7 @@ import DealIcon from "../../assets/icons/deal.svg";
 import TaskdIcon from "../../assets/icons/task.svg";
 import EmailIcon from "../../assets/icons/email.svg";
 import SettingIcon from "../../assets/icons/setting.svg";
+import Avatar from "../../assets/images/profile/avatar1.png";
 
 const Aside = () => {
   const [person, setPerson] = useState({
@@ -66,7 +67,9 @@ const Aside = () => {
   return (
     <div className="aside">
       <div className="profile-info">
-        <div className="img-profile"></div>
+        <div className="img-profile">
+          <img src={Avatar} alt="" />
+        </div>
         <div className="profile-text">
           <p>{person.fullName}</p>
           <span>{person.email}</span>

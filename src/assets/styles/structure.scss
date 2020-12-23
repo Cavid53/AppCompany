@@ -28,6 +28,39 @@ $base-font: "Roboto", sans-serif;
             list-style: none;
             .list-menu-active {
                 display: block;
+                li {
+                    position: relative;
+                    .desc {
+                        font-family: $base-font;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 14px;
+                        color: #828094;
+                    }
+                    .num1 {
+                        font-family: $base-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 7.13136px;
+                        line-height: 8px;
+                        color: #54b806;
+                        position: absolute;
+                        top: 3px;
+                        right: 57px;
+                    }
+                    .num2 {
+                        font-family: $base-font;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 7.13136px;
+                        line-height: 8px;
+                        color: #d5a707;
+                        position: absolute;
+                        top: 3px;
+                        right: 28px;
+                    }
+                }
             }
             .list-menu-noActive {
                 display: none;

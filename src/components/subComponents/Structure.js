@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../../assets/styles/structure.scss";
 import DropDownCloseIcon from "../../assets/icons/dropdown1.svg";
 import DropDownOpenIcon from "../../assets/icons/dropdown2.svg";
+import EllipseIcon from "../../assets/icons/ellipse.svg";
 import { structures } from "../../datas/structures";
 
 const Structure = () => {
@@ -47,13 +48,27 @@ const Structure = () => {
                 />
               </div>
               <ul
+                style={{ marginLeft: "-30px" }}
                 className={
                   item.isShown ? "list-menu-active" : "list-menu-noActive"
                 }
               >
-                <li>dsfsdf</li>
-                <li>sdfsd</li>
-                <li>sdf</li>
+                <li>
+                  <img className="mr-2" src={EllipseIcon} alt="ellipse" />
+                  <span className="desc">Hüquq</span>
+                  <span className="num1">2222</span>
+                  <span className="num2">2222</span>
+                </li>
+                <li>
+                  <img className="mr-2" src={EllipseIcon} alt="ellipse" />
+                  <span className="desc">Marketing</span>
+                </li>
+                <li>
+                  <img className="mr-2" src={EllipseIcon} alt="ellipse" />
+                  <span className="desc">İnvestisiya</span>
+                  <span className="num1">2222</span>
+                  <span className="num2">2222</span>
+                </li>
               </ul>
             </li>
           ))}

@@ -21,13 +21,11 @@ $base-font: "Roboto", sans-serif;
             background-position: center center;
             height: 47px;
             width: 62px;
-            left: 15px;
-            right: -15.22%;
+            left: 20px;
             top: 85px;
-            bottom: -2.17%;
-            background-image: url("../images/profile/avatar1.png");
-            background-repeat: no-repeat;
-            background-size: 62px 47px;
+            img{
+                border-radius: 50%;
+            }
         }
         .profile-text {
             p {
@@ -68,6 +66,7 @@ $base-font: "Roboto", sans-serif;
                 top: 173.5px;
                 box-sizing: border-box;
                 border-radius: 1px;
+                margin-top: -1px;
                 &:hover {
                     border: 1.4px solid $active-color;
                 }
@@ -98,6 +97,7 @@ $base-font: "Roboto", sans-serif;
                 left: 25.67px;
                 top: 213.5px;
                 box-sizing: border-box;
+                margin-top: -1px;
                 &:hover {
                     border: 1.4px solid $active-color;
                 }
@@ -132,6 +132,7 @@ $base-font: "Roboto", sans-serif;
                 top: 256px;
                 box-sizing: border-box;
                 border: 1.4px solid #c2cfe0;
+                margin-top: -3px;
                 &:hover {
                     border: 1.4px solid $active-color;
                 }
@@ -164,6 +165,7 @@ $base-font: "Roboto", sans-serif;
                 position: absolute;
                 left: 25.67px;
                 top: 293.22px;
+                margin-top: -2px;
                 box-sizing: border-box;
                 &:hover {
                     border: 1.4px solid $active-color;
@@ -198,6 +200,7 @@ $base-font: "Roboto", sans-serif;
                 left: 25.67px;
                 top: 332.67px;
                 box-sizing: border-box;
+
                 &:hover {
                     border: 1.4px solid $active-color;
                 }
@@ -231,6 +234,7 @@ $base-font: "Roboto", sans-serif;
                 left: 25.67px;
                 top: 374.33px;
                 box-sizing: border-box;
+                margin-top: -4px;
                 &:hover {
                     border: 1.4px solid $active-color;
                 }
