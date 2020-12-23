@@ -1,0 +1,228 @@
+$base-color: #192a3e;
+$active-color: #4f9bff;
+$menu-color: #334d6e;
+$aside-background: #ffffff;
+
+.aside {
+    position: absolute;
+    width: 256px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: $aside-background;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    .profile-info {
+        .img-profile {
+            position: absolute;
+            border-radius: 50%;
+            background-position: center center;
+            height: 47px;
+            width: 62px;
+            left: 15px;
+            right: -15.22%;
+            top: 85px;
+            bottom: -2.17%;
+            background-image: url("../assets/images/profile/avatar1.png");
+            background-repeat: no-repeat;
+            background-size: 62px 47px;
+        }
+        .profile-text {
+            p {
+                position: absolute;
+                left: 86px;
+                top: 91px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                color: $base-color;
+            }
+            span {
+                position: absolute;
+                top: 113px;
+                left: 86px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 13px;
+                letter-spacing: 0.01em;
+                color: #90a0b7;
+            }
+        }
+    }
+    .aside-menu {
+        ul {
+            list-style: none;
+        }
+        .icon-text {
+            .dashboardIcon {
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                left: 25.67px;
+                top: 173.5px;
+                box-sizing: border-box;
+                border-radius: 1px;
+            }
+
+            a {
+                .dashboardText {
+                    position: absolute;
+                    top: 173px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $active-color;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                    }
+                }
+            }
+            .taskIcon {
+                width: 15.83px;
+                height: 15px;
+                position: absolute;
+                left: 25.67px;
+                top: 213.5px;
+                box-sizing: border-box;
+            }
+
+            a {
+                text-decoration: none;
+                .taskText {
+                    position: absolute;
+                    top: 213px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                    }
+                }
+            }
+
+            .emailIcon {
+                width: 16.67px;
+                height: 13.33px;
+                position: absolute;
+                left: 25.67px;
+                top: 256px;
+                box-sizing: border-box;
+                border: 1.4px solid #c2cfe0;
+            }
+
+            a {
+                text-decoration: none;
+                .emailText {
+                    position: absolute;
+                    top: 253px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                    }
+                }
+            }
+
+            .contactIcon {
+                width: 15.56px;
+                height: 15.56px;
+                position: absolute;
+                left: 25.67px;
+                top: 293.22px;
+                box-sizing: border-box;
+            }
+
+            a {
+                text-decoration: none;
+                .contactText {
+                    position: absolute;
+                    top: 293px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                    }
+                }
+            }
+
+            .chatIcon {
+                width: 16.67px;
+                height: 16.67px;
+                position: absolute;
+                left: 25.67px;
+                top: 332.67px;
+                box-sizing: border-box;
+            }
+
+            a {
+                text-decoration: none;
+                .chatText {
+                    position: absolute;
+                    top: 333px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                    }
+                }
+            }
+
+            .dealIcon {
+                width: 16.67px;
+                height: 13.33px;
+                position: absolute;
+                left: 25.67px;
+                top: 374.33px;
+                box-sizing: border-box;
+                background: #c2cfe0;
+            }
+
+            a {
+                text-decoration: none;
+                .dealText {
+                    position: absolute;
+                    top: 373px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                    }
+                }
+            }
+        }
+    }
+}
