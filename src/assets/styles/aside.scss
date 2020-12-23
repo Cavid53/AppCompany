@@ -119,6 +119,7 @@ $base-font: "Roboto", sans-serif;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
+                        color: $active-color;
                     }
                 }
             }
@@ -152,6 +153,7 @@ $base-font: "Roboto", sans-serif;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
+                        color: $active-color;
                     }
                 }
             }
@@ -184,6 +186,7 @@ $base-font: "Roboto", sans-serif;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
+                        color: $active-color;
                     }
                 }
             }
@@ -216,18 +219,18 @@ $base-font: "Roboto", sans-serif;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
+                        color: $active-color;
                     }
                 }
             }
 
             .dealIcon {
-                width: 16.67px;
-                height: 13.33px;
+                width: 20px;
+                height: 20px;
                 position: absolute;
                 left: 25.67px;
                 top: 374.33px;
                 box-sizing: border-box;
-                background: #c2cfe0;
                 &:hover {
                     border: 1.4px solid $active-color;
                 }
@@ -249,6 +252,7 @@ $base-font: "Roboto", sans-serif;
                     &:hover {
                         text-decoration: underline;
                         text-decoration-color: $active-color;
+                        color: $active-color;
                     }
                 }
             }
@@ -291,6 +295,7 @@ $base-font: "Roboto", sans-serif;
             &:hover {
                 text-decoration: underline;
                 text-decoration-color: $active-color;
+                color: $active-color;
             }
         }
     }

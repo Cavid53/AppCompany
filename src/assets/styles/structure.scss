@@ -1,0 +1,158 @@
+$base-font: "Roboto", sans-serif;
+.structure {
+    position: absolute;
+    width: 232.74px;
+    top: 229px;
+    left: 36px;
+    background: #ffffff;
+    box-shadow: 0.648305px 1.94492px 7.77966px rgba(0, 0, 0, 0.03);
+    border-radius: 11.6695px;
+    .head {
+        span {
+            position: absolute;
+            width: 59.64px;
+            left: 18.8px;
+            top: 25.28px;
+            font-family: $base-font;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16.2076px;
+            line-height: 19px;
+            color: #333150;
+        }
+    }
+    .structure-list {
+        margin-top: 60px;
+        margin-left: -20px;
+        ul {
+            list-style: none;
+            .list-menu-active {
+                display: block;
+            }
+            .list-menu-noActive {
+                display: none;
+            }
+            li {
+                margin-top: 20px;
+                ul {
+                    line-height: 8px;
+                    li {
+                    }
+                }
+
+                .structure-text {
+                    width: 60px;
+                    display: inline-block;
+                    .text {
+                        width: 59px;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 15px;
+                        color: #454460;
+                    }
+                }
+                .structure-one {
+                    display: inline-block;
+                    position: relative;
+                    margin-left: 20px;
+                    width: 23.34px;
+                    height: 13.61px;
+                    background: #f2f0fe;
+                    border-radius: 1.29661px;
+                }
+                .structure-two {
+                    display: inline-block;
+                    position: relative;
+                    margin-left: 5px;
+                    width: 23.34px;
+                    height: 13.61px;
+                    background: #c0e8ff;
+                    border-radius: 1.29661px;
+                }
+                .structure-three {
+                    display: inline-block;
+                    position: relative;
+                    margin-left: 5px;
+                    width: 23.34px;
+                    height: 13.61px;
+                    background: #d7ffe2;
+                    border-radius: 1.29661px;
+                }
+                .structure-four {
+                    display: inline-block;
+                    position: relative;
+                    margin-left: 5px;
+                    width: 23.34px;
+                    height: 13.61px;
+                    background: #fff9c7;
+                    border-radius: 1.29661px;
+                }
+
+                .one {
+                    position: absolute;
+                    left: 3px;
+                    top: 3px;
+                    width: 16.86px;
+                    height: 8.43px;
+                    font-family: $base-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 7.13136px;
+                    line-height: 8px;
+                    color: #826cfc;
+                }
+                .two {
+                    position: absolute;
+                    left: 3px;
+                    top: 3px;
+                    width: 16.86px;
+                    height: 8.43px;
+                    font-family: $base-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 7.13136px;
+                    line-height: 8px;
+                    color: #0085ff;
+                }
+                .three {
+                    position: absolute;
+                    left: 3px;
+                    top: 3px;
+                    width: 16.86px;
+                    height: 8.43px;
+                    font-family: $base-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 7.13136px;
+                    line-height: 8px;
+                    color: #54b806;
+                }
+                .four {
+                    position: absolute;
+                    left: 3px;
+                    top: 3px;
+                    width: 16.86px;
+                    height: 8.43px;
+                    font-family: $base-font;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 7.13136px;
+                    line-height: 8px;
+                    color: #d5a707;
+                }
+                .img-icon {
+                    display: inline-block;
+                    margin-left: 5px;
+                    img {
+                        width: 8.43px;
+                        height: 4.57px;
+                        cursor: pointer;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
