@@ -4,6 +4,7 @@ import DropDownCloseIcon from "../../assets/icons/dropdown1.svg";
 import DropDownOpenIcon from "../../assets/icons/dropdown2.svg";
 import EllipseIcon from "../../assets/icons/ellipse.svg";
 import { structures } from "../../datas/structures";
+import { Collapse } from "reactstrap";
 
 const Structure = () => {
   const [items, setItems] = useState(structures);
@@ -47,29 +48,29 @@ const Structure = () => {
                   alt="close"
                 />
               </div>
-              <ul
-                style={{ marginLeft: "-30px" }}
-                className={
-                  item.isShown ? "list-menu-active" : "list-menu-noActive"
-                }
-              >
-                <li>
-                  <img className="mr-2" src={EllipseIcon} alt="ellipse" />
-                  <span className="desc">Hüquq</span>
-                  <span className="num1">2222</span>
-                  <span className="num2">2222</span>
-                </li>
-                <li>
-                  <img className="mr-2" src={EllipseIcon} alt="ellipse" />
-                  <span className="desc">Marketing</span>
-                </li>
-                <li>
-                  <img className="mr-2" src={EllipseIcon} alt="ellipse" />
-                  <span className="desc">İnvestisiya</span>
-                  <span className="num1">2222</span>
-                  <span className="num2">2222</span>
-                </li>
-              </ul>
+              <Collapse isOpen={item.isShown}>
+                <ul
+                  style={{ marginLeft: "-30px" }}
+                  className="list-menu-active"
+                >
+                  <li>
+                    <img className="mr-2" src={EllipseIcon} alt="ellipse" />
+                    <span className="desc">Hüquq</span>
+                    <span className="num1">2222</span>
+                    <span className="num2">2222</span>
+                  </li>
+                  <li>
+                    <img className="mr-2" src={EllipseIcon} alt="ellipse" />
+                    <span className="desc">Marketing</span>
+                  </li>
+                  <li>
+                    <img className="mr-2" src={EllipseIcon} alt="ellipse" />
+                    <span className="desc">İnvestisiya</span>
+                    <span className="num1">2222</span>
+                    <span className="num2">2222</span>
+                  </li>
+                </ul>
+              </Collapse>
             </li>
           ))}
         </ul>
