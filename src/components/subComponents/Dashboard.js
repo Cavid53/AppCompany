@@ -1,18 +1,17 @@
 import React from "react";
-import "../../assets/styles/dashboard.scss";
-import AppCard from "./Card";
-import DashboardHeader from "./DashboardHeader";
-import AppSearch from "./Search";
-import Structure from "./Structure";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import DashboardContent from "./DashboardContent";
+import CardDetail from "../subComponents/CardDetails";
 
 const Dashboard = () => {
   return (
     <div className="dashboard">
-      <DashboardHeader />
-      <div className="line-dashboard"></div>
-      <AppSearch />
-      <Structure />
-      <AppCard />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={DashboardContent} />
+          <Route exact path="/CardDetails" component={CardDetail} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 };

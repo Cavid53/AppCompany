@@ -11,6 +11,7 @@ const DashboardHeader = () => {
         <img className="alert-icon" src={AlertIcon} alt="alert" />
         <img className="circle-icon" src={CircleIcon} alt="circle" />
         <div className="background-img-avatar"></div>
+        <div className="line-dashboard"></div>
       </div>
     </div>
   );
