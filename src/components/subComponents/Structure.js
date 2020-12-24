@@ -8,6 +8,7 @@ import { Collapse } from "reactstrap";
 
 const Structure = () => {
   const [items, setItems] = useState(structures);
+  const [isOpen, setIsopen] = useState(false);
 
   const toggleDropdown = (item) => {
     item.isShown = !item.isShown;
@@ -55,21 +56,46 @@ const Structure = () => {
                 >
                   <li>
                     <img className="mr-2" src={EllipseIcon} alt="ellipse" />
-                    <span className="desc">Hüquq</span>
+                    <span style={{ cursor: "pointer" }} className="desc">
+                      Hüquq
+                    </span>
                     <span className="num1">2222</span>
                     <span className="num2">2222</span>
                   </li>
                   <li>
                     <img className="mr-2" src={EllipseIcon} alt="ellipse" />
-                    <span className="desc">Marketing</span>
+                    <span style={{ cursor: "pointer" }} className="desc">
+                      Marketing
+                    </span>
                   </li>
                   <li>
                     <img className="mr-2" src={EllipseIcon} alt="ellipse" />
-                    <span className="desc">İnvestisiya</span>
+
+                    <span
+                      style={{ cursor: "pointer" }}
+                      onClick={() => setIsopen(!isOpen)}
+                      className="desc"
+                    >
+                      İnvestisiya
+                    </span>
+
                     <span className="num1">2222</span>
                     <span className="num2">2222</span>
                   </li>
                 </ul>
+                <Collapse isOpen={isOpen}>
+                  <ul className="subPosition">
+                    <li>
+                      <span>- Strateji</span>
+                    </li>
+                    <li>
+                      <span>- Strateji</span>
+                    </li>
+                    <li>
+                      <span>- Strateji</span>
+                    </li>
+                  </ul>
+                </Collapse>
               </Collapse>
             </li>
           ))}

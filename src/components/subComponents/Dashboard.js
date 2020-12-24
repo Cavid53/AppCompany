@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/styles/dashboard.scss";
+import AppCard from "./Card";
 import DashboardHeader from "./DashboardHeader";
 import AppSearch from "./Search";
 import Structure from "./Structure";
@@ -11,6 +12,7 @@ const Dashboard = () => {
       <div className="line-dashboard"></div>
       <AppSearch />
       <Structure />
+      <AppCard />
     </div>
   );
 };

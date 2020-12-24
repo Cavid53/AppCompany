@@ -61,7 +61,7 @@ export const structures = [
     two: "two",
     three: "three",
     four: "four",
-    isShown: false,
+    isShown: true,
   },
   {
     id: 5,

@@ -1,0 +1,202 @@
+$base-font: "Roboto", sans-serif;
+.app-card {
+    position: absolute;
+    width: 242px;
+    height: 206px;
+    left: 579px;
+    top: 276px;
+    background: #ffffff;
+    box-shadow: 0.845026px 2.53508px 10.1403px rgba(0, 0, 0, 0.03);
+    border-radius: 6.76021px;
+    .back-image {
+        position: absolute;
+        left: 15.62px;
+        width: 65.07px;
+        height: 65.07px;
+        top: 15px;
+        background-image: url("../icons/avatar2.svg");
+        background-repeat: no-repeat;
+        background-size: 65.07px 65.07px;
+    }
+    .person-data {
+        margin-left: 35px;
+        margin-top: 27px;
+
+        .name {
+            font-family: $base-font;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            color: #6f737c;
+        }
+        .email {
+            font-family: $base-font;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 13px;
+            margin-top: -11px;
+            color: #6f737c;
+        }
+        ul {
+            list-style-type: none;
+            margin-left: -43px;
+            margin-top: -10px;
+            li {
+                font-family: $base-font;
+                display: inline-block;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 9px;
+                line-height: 11px;
+                margin-left: 3px;
+                padding: 2px 5px;
+            }
+            .first {
+                background-color: #f2f0fe;
+                color: #826cfc;
+            }
+            .second {
+                background-color: #c0e8ff;
+                color: #0085ff;
+            }
+            .third {
+                background-color: #d7ffe2;
+                color: #54b806;
+            }
+            .fourth {
+                background-color: #fff9c7;
+                color: #d5a707;
+            }
+        }
+    }
+    .position-role {
+        position: absolute;
+        width: 174.08px;
+        height: 50.7px;
+        left: 33.76px;
+        top: 104.25px;
+        background: #f7fcff;
+        border-radius: 5.07016px;
+        ul {
+            list-style-type: none;
+            li {
+                display: inline-block;
+            }
+
+            .structure {
+                position: absolute;
+                left: 32px;
+                top: 9px;
+                font-family: $base-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 13px;
+                color: #5e646f;
+                background: #f7fcff;
+                width: 39.72px;
+                height: 12.68px;
+            }
+            .structureName {
+                position: absolute;
+                top: 27.54px;
+                left: 24px;
+                font-family: $base-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #9ba5b7;
+            }
+            .line {
+                position: absolute;
+                height: 0px;
+                width: 17.75px;
+                left: 85px;
+                top: 23.76px;
+                border: 0.845026px solid #c1cbde;
+                transform: rotate(90deg);
+            }
+            .roleName {
+                position: absolute;
+                top: 9px;
+                left: 113px;
+                font-family: $base-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 13px;
+                color: #5e646f;
+                background: #f7fcff;
+                width: 31.27px;
+                height: 12.68px;
+            }
+            .role {
+                position: absolute;
+                top: 27.54px;
+                left: 107px;
+                font-family: $base-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+                color: #9ba5b7;
+            }
+        }
+    }
+
+    .get-profile {
+        .show-profile {
+            position: absolute;
+            width: 82.81px;
+            height: 28.73px;
+            left: 34.76px;
+            top: 163.25px;
+            background: #f0f4ff;
+            border-radius: 3.38011px;
+            .show-icon {
+                position: absolute;
+                left: 22px;
+                top: 9px;
+            }
+            .show {
+                position: absolute;
+                left: 39.8px;
+                top: 9px;
+                font-family: $base-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+        .send-mail {
+            position: absolute;
+            width: 82.81px;
+            height: 28.73px;
+            left: 124.76px;
+            top: 163.25px;
+            background: #ffffff;
+            border: 0.845026px solid #e9e9e9;
+            box-sizing: border-box;
+            border-radius: 3.38011px;
+            .mail-icon {
+                position: absolute;
+                left: 12px;
+                top: 10px;
+            }
+            .mail {
+                position: absolute;
+                left: 31.45px;
+                top: 9px;
+                font-family: $base-font;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 14px;
+            }
+        }
+    }
+}
