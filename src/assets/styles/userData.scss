@@ -1,5 +1,29 @@
 $base-font: "Roboto", sans-serif;
 .user-data {
+    .back-text {
+        position: absolute;
+        left: -230px;
+        top: -96px;
+        font-family: $base-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #a5a8b3;
+    }
+    .icon-background {
+        width: 23.37px;
+        height: 24px;
+        background: #96c1f9;
+        border-radius: 4px;
+        position: absolute;
+        left: -270px;
+        top: -100px;
+        img {
+            margin-left: 7px;
+            margin-bottom: 4px;
+        }
+    }
     position: absolute;
     width: 851px;
     height: 816px;

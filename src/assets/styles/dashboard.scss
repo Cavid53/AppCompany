@@ -16,3 +16,41 @@
         left: 0;
     }
 }
+.structure {
+    .card-item1 {
+        position: absolute;
+        top: -20px;
+        left: -300px;
+    }
+    .card-item2 {
+        position: absolute;
+        top: -20px;
+        left: 230px;
+    }
+
+    .leftHorizontal {
+        position: absolute;
+        top: 152px;
+        left: 392px;
+    }
+    .leftVertical {
+        position: absolute;
+        top: 161px;
+        left: 392px;
+    }
+    .rightHorizontal {
+        position: absolute;
+        top: 152px;
+        left: 799px;
+    }
+    .rightVertical {
+        position: absolute;
+        top: 160px;
+        left: 929px;
+    }
+}
+.line-up {
+    position: absolute;
+    top: 228px;
+    left: 700px;
+}

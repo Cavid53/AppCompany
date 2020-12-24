@@ -1,10 +1,16 @@
 import React, { useState } from "react";
 import "../../assets/styles/structure.scss";
+import "../../assets/styles/dashboard.scss";
 import DropDownCloseIcon from "../../assets/icons/dropdown1.svg";
 import DropDownOpenIcon from "../../assets/icons/dropdown2.svg";
 import EllipseIcon from "../../assets/icons/ellipse.svg";
+import AppCard from "../subComponents/Card";
 import { structures } from "../../datas/structures";
 import { Collapse } from "reactstrap";
+import LeftHorizontal from "../../assets/images/leftHorizontal.png";
+import LeftVertical from "../../assets/images/leftVertical.png";
+import RightHorizontal from "../../assets/images/rightHorizontal.png";
+import RightVertical from "../../assets/images/rightVertical.png";
 
 const Structure = () => {
   const [items, setItems] = useState(structures);
@@ -101,6 +107,40 @@ const Structure = () => {
           ))}
         </ul>
       </div>
+      {isOpen ? (
+        <div>
+          <div className="card-item1">
+            <AppCard />
+          </div>
+          <div className="card-item2">
+            <AppCard />
+          </div>
+          <div className="images-line">
+            <img
+              className="leftHorizontal"
+              src={LeftHorizontal}
+              alt="LeftHorizontal"
+            />
+            <img
+              className="leftVertical"
+              src={LeftVertical}
+              alt="LeftVertical"
+            />
+            <img
+              className="rightHorizontal"
+              src={RightHorizontal}
+              alt="RightHorizontal"
+            />
+            <img
+              className="rightVertical"
+              src={RightVertical}
+              alt="RightVertical"
+            />
+          </div>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

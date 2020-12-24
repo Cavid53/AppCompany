@@ -3,11 +3,14 @@ import "../../assets/styles/card.scss";
 import ShowIcon from "../../assets/icons/show.svg";
 import MailIcon from "../../assets/icons/mail.svg";
 
+
 const AppCard = (props) => {
   let isOpen = props.isOpen;
   console.log(props);
   return (
     <div className="card-section">
+     
+       
       <div className="app-card">
         <div className="container">
           <div className="row">
