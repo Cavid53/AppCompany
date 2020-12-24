@@ -1,21 +1,9 @@
+import Main from "./components/Main";
 import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          <button className="btn btn-primary"></button>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Main />
     </div>
   );
 }

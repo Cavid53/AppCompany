@@ -1,0 +1,56 @@
+.dashboard {
+    position: absolute;
+    width: 1263px;
+    height: 1111px;
+    left: calc(50% - 1263px / 2 + 128px);
+    top: 0%;
+    bottom: 0%;
+    background: #fdfdfd;
+
+    .line-dashboard {
+        position: absolute;
+        background-color: #ebeff2;
+        width: 1263px;
+        height: 1px;
+        top: 60px;
+        left: 0;
+    }
+}
+.structure {
+    .card-item1 {
+        position: absolute;
+        top: -20px;
+        left: -300px;
+    }
+    .card-item2 {
+        position: absolute;
+        top: -20px;
+        left: 230px;
+    }
+
+    .leftHorizontal {
+        position: absolute;
+        top: 152px;
+        left: 392px;
+    }
+    .leftVertical {
+        position: absolute;
+        top: 161px;
+        left: 392px;
+    }
+    .rightHorizontal {
+        position: absolute;
+        top: 152px;
+        left: 799px;
+    }
+    .rightVertical {
+        position: absolute;
+        top: 160px;
+        left: 929px;
+    }
+}
+.line-up {
+    position: absolute;
+    top: 228px;
+    left: 700px;
+}

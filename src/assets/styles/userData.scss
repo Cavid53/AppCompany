@@ -1,0 +1,90 @@
+$base-font: "Roboto", sans-serif;
+.user-data {
+    .back-text {
+        position: absolute;
+        left: -230px;
+        top: -96px;
+        font-family: $base-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #a5a8b3;
+    }
+    .icon-background {
+        width: 23.37px;
+        height: 24px;
+        background: #96c1f9;
+        border-radius: 4px;
+        position: absolute;
+        left: -270px;
+        top: -100px;
+        img {
+            margin-left: 7px;
+            margin-bottom: 4px;
+        }
+    }
+    position: absolute;
+    width: 851px;
+    height: 816px;
+    left: 301px;
+    top: 16.29%;
+    background: #ffffff;
+    box-shadow: 0.845026px 2.53508px 10.1403px rgba(0, 0, 0, 0.03);
+    border-radius: 6.76021px;
+
+    .head-text {
+        position: absolute;
+        margin-top: 50px;
+        left: 39px;
+        top: 50px;
+        font-family: $base-font;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 22px;
+        color: #6378c8;
+    }
+    .description {
+        position: absolute;
+        top: 97px;
+        left: 40px;
+        font-family: $base-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        margin-top: 53px;
+        color: #7c8196;
+    }
+
+    .nav-tabs {
+        width: 100%;
+    }
+    .nav-link {
+        padding: 0.5rem 0rem;
+        margin-right: 40px;
+        margin-left: 39px;
+    }
+    .nav-link,
+    .nav-tabs .nav-link.active {
+        border-bottom: 3px solid #507ff9;
+        color: #507ff9 !important;
+    }
+
+    .nav-tabs .nav-link {
+        border: none;
+        color: #a5abc2 !important;
+    }
+    .close-icon {
+        position: absolute;
+        right: 14px;
+        top: 5px;
+        img {
+            cursor: pointer;
+            width: 12px;
+            height: 12px;
+        }
+    }
+}

@@ -1,0 +1,306 @@
+$base-color: #192a3e;
+$active-color: #4f9bff;
+$menu-color: #334d6e;
+$aside-background: #ffffff;
+$base-font: "Roboto", sans-serif;
+
+.aside {
+    position: absolute;
+    z-index: 1;
+    width: 256px;
+    height: 1111px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: $aside-background;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    .profile-info {
+        .img-profile {
+            position: absolute;
+            border-radius: 50%;
+            background-position: center center;
+            height: 47px;
+            width: 62px;
+            left: 20px;
+            top: 85px;
+            img{
+                border-radius: 50%;
+            }
+        }
+        .profile-text {
+            p {
+                font-family: $base-font;
+                position: absolute;
+                left: 86px;
+                top: 91px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                color: $base-color;
+            }
+            span {
+                font-family: $base-font;
+                position: absolute;
+                top: 113px;
+                left: 86px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 11px;
+                line-height: 13px;
+                letter-spacing: 0.01em;
+                color: #90a0b7;
+            }
+        }
+    }
+    .aside-menu {
+        ul {
+            list-style: none;
+        }
+        .icon-text {
+            .dashboardIcon {
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                left: 25.67px;
+                top: 173.5px;
+                box-sizing: border-box;
+                border-radius: 1px;
+                margin-top: -1px;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
+            }
+
+            a {
+                .dashboardText {
+                    position: absolute;
+                    top: 173px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $active-color;
+                    font-family: $base-font;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                    }
+                }
+            }
+            .taskIcon {
+                width: 15.83px;
+                height: 15px;
+                position: absolute;
+                left: 25.67px;
+                top: 213.5px;
+                box-sizing: border-box;
+                margin-top: -1px;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                .taskText {
+                    position: absolute;
+                    top: 213px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    font-family: $base-font;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                        color: $active-color;
+                    }
+                }
+            }
+
+            .emailIcon {
+                width: 16.67px;
+                height: 13.33px;
+                position: absolute;
+                left: 25.67px;
+                top: 256px;
+                box-sizing: border-box;
+                border: 1.4px solid #c2cfe0;
+                margin-top: -3px;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                .emailText {
+                    position: absolute;
+                    top: 253px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    font-family: $base-font;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                        color: $active-color;
+                    }
+                }
+            }
+
+            .contactIcon {
+                width: 15.56px;
+                height: 15.56px;
+                position: absolute;
+                left: 25.67px;
+                top: 293.22px;
+                margin-top: -2px;
+                box-sizing: border-box;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                .contactText {
+                    position: absolute;
+                    top: 293px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    font-family: $base-font;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                        color: $active-color;
+                    }
+                }
+            }
+
+            .chatIcon {
+                width: 16.67px;
+                height: 16.67px;
+                position: absolute;
+                left: 25.67px;
+                top: 332.67px;
+                box-sizing: border-box;
+
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                .chatText {
+                    position: absolute;
+                    top: 333px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    font-family: $base-font;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                        color: $active-color;
+                    }
+                }
+            }
+
+            .dealIcon {
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: 25.67px;
+                top: 374.33px;
+                box-sizing: border-box;
+                margin-top: -4px;
+                &:hover {
+                    border: 1.4px solid $active-color;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                .dealText {
+                    position: absolute;
+                    top: 373px;
+                    left: 58px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 15px;
+                    letter-spacing: 0.01em;
+                    color: $base-color;
+                    font-family: $base-font;
+                    &:hover {
+                        text-decoration: underline;
+                        text-decoration-color: $active-color;
+                        color: $active-color;
+                    }
+                }
+            }
+        }
+    }
+    .line-aside {
+        position: absolute;
+        width: 256px;
+        height: 1px;
+        left: 0px;
+        top: 415px;
+        background-color: #ebeff2;
+    }
+
+    .settingIcon {
+        width: 13.33px;
+        height: 3.33px;
+        position: absolute;
+        left: 25.67px;
+        top: 448.33px;
+        box-sizing: border-box;
+        &:hover {
+            border: 1.4px solid $active-color;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        .settingText {
+            position: absolute;
+            top: 442px;
+            left: 58px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 0.01em;
+            color: $base-color;
+            font-family: $base-font;
+            &:hover {
+                text-decoration: underline;
+                text-decoration-color: $active-color;
+                color: $active-color;
+            }
+        }
+    }
+}

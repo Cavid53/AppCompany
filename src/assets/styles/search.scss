@@ -1,0 +1,108 @@
+$base-font: "Roboto", sans-serif;
+.app-search {
+    input {
+        outline: none;
+    }
+    span {
+        position: absolute;
+        width: 60px;
+        height: 22px;
+        left: 37px;
+        top: 74px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 22px;
+        font-family: $base-font;
+        color: #000000;
+    }
+
+    .fullNameInput {
+        padding-left: 13px;
+        position: absolute;
+        width: 236px;
+        height: 45px;
+        left: 37px;
+        top: 113px;
+        background: #ffffff;
+        border: 1px solid #e3e8ef;
+        box-sizing: border-box;
+        border-radius: 7px;
+        &:hover {
+            border: 1px solid #4f9bff;
+        }
+    }
+    .structureInput {
+        padding-left: 13px;
+        position: absolute;
+        width: 236px;
+        height: 45px;
+        left: 324px;
+        top: 113px;
+        background: #ffffff;
+        border: 1px solid #e3e8ef;
+        box-sizing: border-box;
+        border-radius: 7px;
+        &:hover {
+            border: 1px solid #4f9bff;
+        }
+    }
+    .roleInput {
+        padding-left: 13px;
+        position: absolute;
+        width: 236px;
+        height: 45px;
+        left: 608px;
+        top: 113px;
+        background: #ffffff;
+        border: 1px solid #e3e8ef;
+        box-sizing: border-box;
+        border-radius: 7px;
+        &:hover {
+            border: 1px solid #4f9bff;
+        }
+    }
+    .search-button {
+        position: absolute;
+        left: 1018px;
+        top: 113px;
+        font-family: $base-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 22px;
+        color: #ffffff;
+        background: linear-gradient(180deg, #00c6ff -144.44%, #0072ff 233.33%);
+        border-radius: 6px;
+        width: 128px;
+        height: 45px;
+        border: none;
+        &:hover {
+            background: linear-gradient(180deg, #1088aa -144.44%, #0072ff 233.33%);
+        }
+    }
+    .fullNameInput::placeholder {
+        font-family: $base-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #abb6c5;
+    }
+    .structureInput::placeholder {
+        font-family: $base-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #abb6c5;
+    }
+    .roleInput::placeholder {
+        font-family: $base-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #abb6c5;
+    }
+}
